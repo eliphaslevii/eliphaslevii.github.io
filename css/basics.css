@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+.nav_class{
+    background-color: #00235B;
+    overflow: hidden;
+}
+.nav_class a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 32px 40px;
+    text-decoration: none;
+    font-size: 17px;    
+}
+.nav_class a:hover{
+    background-color: #E21818;
+}
+.ul_nav{
+    list-style-type: none;
+}
+.column_nav{
+    width: 18%;
+    text-align: center;
+}
+
+
+.dog_foot{
+    width: 50%;
+    display: flex;
+}
+.foot_bg{
+    overflow: hidden;
+    background-color: #00235B;
+    width: 100%;
+    
+}
+.foot_bg p {
+    position: relative;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;   
+}
+.overimage{
+    position: absolute;
+    left: 90%;
+    top: 0;
+}
+.column_foot{
+    width: 33%;
+    text-align: center;
+    line-break: auto;
+}
