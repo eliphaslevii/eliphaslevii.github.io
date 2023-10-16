@@ -1,41 +1,163 @@
 <!DOCTYPE html>
 
 <html>
-    <header>
-        <meta charset="UTF-8">
-        <title>Exercício 2</title>
-        <link href="./css/basics.css" rel="stylesheet">
-        <style>
-
-        </style>
-    </header>
-    <head>
-        <nav class="nav_class">
-                <a class="column_nav "href="/home">Home</a>
-                <a class="column_nav "href="/home">Sobre</a>
-                <div class="column_nav">
-                    <div class="overimage">
-                        <img class="dog_foot" src="./assets/dog_foot.png">
-                       </div> 
-                </div>
-
-                <a class="column_nav "href="/home">Contato</a>
-                <a class="column_nav "href="/home">Doação</a>
-        </nav>
-    </head>
-    <body>
-        <main>
-            <section>
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-            </section>
-        </main>
-    </body>
+  <style>
+    .parallax {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("./assets/home1.jpg");
+      min-height: 800px;
+      position: relative;
+    }
     
-    <footer class="foot_bg">
-        <div class="column_foot">
-            <p>Contato | +55 (41) 9999-9999</p>
-            <p>Diretor | Claudio Ricardo Barizon</p>
+    .parallax-content  {
+      position: absolute;
+      top: 30%;
+      left: 18%;
+      transform: translate(-50%, -50%);
+      color: aliceblue;
+      text-align: left; 
+    }
+    .parallax-content h1 {
+      color: aliceblue;
+      font-size: 80px;
+      margin-left: 5%;
+    }
+    .parallax-content h2 {
+      color: aliceblue;
+      font-size: 30px;
+      margin-left: 10%;
+    }
+    .content {
+      height: 800px;
+      padding: 5%;
+
+    }
+    .content h5{
+      font-size: 20px;
+    }
+    .parallax2 {
+     background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("./assets/home2.jpg");
+      min-height: 800px;
+      position: relative;
+    }
+    .parallax-content2  {
+      position: absolute;
+      top: 40%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+      color: aliceblue;
+      text-align: right; 
+     }
+    .parallax-content2 h1 {
+      text-align: right;
+      color: aliceblue;
+      font-size: 80px;
+      margin-left: 5%;
+    }
+    .parallax-content2 h2 {
+      color: aliceblue;
+      font-size: 30px;
+      margin-left: 10%;
+    }
+    .parallax3 {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("./assets/home3.jpg");
+      min-height: 800px;
+      position: relative;
+    }
+    .parallax4 {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("./assets/home4.jpg");
+      min-height: 800px;
+      position: relative;
+    }
+  </style>
+  <script></script>
+  <header>
+    <meta charset="UTF-8" />
+    <title>Exercício 2</title>
+    <link href="./css/basics.css" rel="stylesheet" />
+    <link href="./css/index.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style></style>
+  </header>
+  <head>
+    <nav class="nav_class">
+      <a class="column_nav" href="/home">Home</a>
+      <a class="column_nav" href="/home">Sobre</a>
+      <div class="column_nav">
+        <div class="overimage">
+          <img class="dog_foot" src="./assets/dog_foot.png" />
         </div>
-    </footer>
+      </div>
+
+      <a class="column_nav" href="/home">Contato</a>
+      <a class="column_nav" href="/home">Doação</a>
+    </nav>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="parallax">
+          <div class="parallax-content">
+            <h1>Amigo 4 patas</h1>
+            <h2>Doações, adoções e arrecadações para animais carentes.</h2>
+
+          </div>
+        </div>
+        <div class="content">
+         
+        </div>
+        <div class="parallax2">
+          <div class="parallax-content2">
+            <h1>Filas para adoção</h1>
+            <h2>Filas para adoção de animais silvestres resgatados.</h2>
+          </div>
+        </div>
+        <div class="content">
+        </div>
+        <div class="parallax3">
+          <div class="parallax-content">
+            <h1>Doe e salve 7 vidas</h1>
+            <h2>Centro de arrecadação filantrópico, doe e salve!.</h2>
+          </div>
+        </div>
+        <div class="content">
+        </div>
+        <div class="parallax4">
+          <div class="parallax-content2">
+            <h1>Contato</h1>
+            <h2>Como podemos ser úteis ?</h2>
+          </div>
+        </div>
+        <br />
+      </section>
+    </main>
+  </body>
+
+  <footer class="foot_bg">
+    <div class="column_foot">
+      <p>Contato | +55 (41) 9999-9999</p>
+      <p>Diretor | Claudio Ricardo Barizon</p>
+    </div>
+  </footer>
 </html>
