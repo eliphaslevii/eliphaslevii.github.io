@@ -58,3 +58,26 @@ body{
     text-align: center;
     line-break: auto;
 }
+@media screen and (min-width: 768px) {
+    .nav_class a {
+        padding: 32px 20px; 
+        font-size: 16px;
+    }
+    .column_nav {
+        width: 25%;
+    }
+    .dog_foot {
+        width: 40%;
+    }
+    .column_foot {
+        width: 33%;
+    }
+    .overimage{
+        position: absolute;
+        left: 90%;
+        top: 30%;
+    }
+}
+
+
+
