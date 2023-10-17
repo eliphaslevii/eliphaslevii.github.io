@@ -41,6 +41,7 @@ body{
     overflow: hidden;
     background-color: #00235B;
     width: 100%;
+    margin: 0;
     
 }
 .foot_bg p {
@@ -69,3 +70,4 @@ body{
     flex-wrap: wrap;
     padding: 20px;
 }
+

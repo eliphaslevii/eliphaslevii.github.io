@@ -12,9 +12,10 @@
 .parallax-content  {
   position: absolute;
   top: 30%;
-  left: 18%;
+  left: 21%;
   transform: translate(-50%, -50%);
-  text-align: left; 
+ 
+  
 }
 .parallax-content h1 {
   color: #F1F1E6;
@@ -25,7 +26,7 @@
   font-size: 30px;
 }
 .content {
-  height: 800px;
+  height: 500px;
   padding: 5%;
 
 }
@@ -49,6 +50,10 @@
   color: #F1F1E6;
   font-weight: bolder;
 
+}
+.saibamais:hover{
+  background-color: #F1F1E6;
+  color: #00235B;
 }
 .parallax2 {
  background-attachment: fixed;
