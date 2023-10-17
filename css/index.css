@@ -11,9 +11,9 @@
 
 .parallax-content  {
   position: absolute;
-  top: 30%;
-  left: 21%;
-  transform: translate(-50%, -50%);
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 1%;
  
   
 }
@@ -26,12 +26,12 @@
   font-size: 30px;
 }
 .content {
-  height: 500px;
+  height: 100%;
   padding: 5%;
 
 }
 .content h1{
-  font-size: 50px;
+  font-size: 20px;
   color: #00235B;
 }
 .content h2{
@@ -99,4 +99,34 @@
   background-image: url("../assets/home4.jpg");
   min-height: 800px;
   position: relative;
+}
+.container_img{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .content {
+    height: auto; 
+    padding: 10px; 
+  }
+
+  .column {
+    width: 100%; 
+    margin: 0; 
+  }
+
+  .parallax-content h1 {
+    font-size: 40px;
+  }
+
+  .parallax-content h2 {
+    font-size: 18px;
+  }
+
+  .saibamais {
+    width: 100%;
+  }
 }
