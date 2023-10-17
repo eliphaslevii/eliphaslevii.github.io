@@ -1,0 +1,85 @@
+html{
+    font-family: 'Dosis', sans-serif;
+
+}
+body{
+    margin: 0;
+}
+.nav_class{
+   background-color: #00235B;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 100;
+}
+.nav_class a{
+    float: left;
+    color: #F1F1E6;
+    text-align: center;
+    padding: 1%;
+    text-decoration: none;
+    font-size: 17px;    
+}
+.nav_class a:hover{
+    background-color: #F1F1E6;
+    color: #00235B;
+    font-weight: bold;
+}
+.ul_nav{
+    list-style-type: none;
+}
+.column_nav{
+    width: 18%;
+    text-align: center;
+}
+.dog_foot{
+    width: 30%;
+    display: flex;
+}
+.foot_bg{
+    overflow: hidden;
+    background-color: #00235B;
+    width: 100%;
+    margin: 0;
+    
+}
+.foot_bg p {
+    position: relative;
+    color: #F1F1E6;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;   
+}
+.overimage{
+    position: absolute;
+    left: 90%;
+    top: 1px;
+}
+.column_foot{
+    width: 33%;
+    text-align: center;
+    line-break: auto;
+}
+.column{
+    flex: 1;
+    margin: 10px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999; 
+  }
+  
+  .whatsapp-button img {
+    width: 60px;
+    height: auto;
+    cursor: pointer;
+  }
