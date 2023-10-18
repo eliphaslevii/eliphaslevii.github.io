@@ -18,19 +18,19 @@
 }
   .parallax_hospital-content  {
     position: absolute;
-    top: 5%;
-    left: 60%;
-    text-align: right;
 
   }
 
   .parallax_hospital h1 {
     color: #F1F1E6;
     font-size: 80px;
+    margin-left: 20%;
   }
   .parallax_hospital h2 {
     color: #F1F1E6;
     font-size: 30px;
+    margin-left: 20%;
+
   }
   .content_hospital {
     height: 100%;
