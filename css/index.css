@@ -143,6 +143,19 @@
   width: 100%;
   height: 100%;
 }
+.card_home {
+  width: 400px;
+  height: 400px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  margin-left: auto;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.aright {
+  text-align: right;
+}
 @media (max-width: 768px) {
   .content {
     height: auto; 
