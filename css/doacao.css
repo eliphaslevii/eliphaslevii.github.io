@@ -1,0 +1,74 @@
+.parallax_doacao {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../assets/doa1.jpg");
+    min-height: 800px;
+    position: relative;
+  }
+  
+  .parallax_doacao::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .parallax_doacao2 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../assets/dos2.jpeg");
+    min-height: 800px;
+    position: relative;
+  }
+  
+  .parallax_doacao2::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+.row_doacao {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .row label {
+    margin-bottom: 5px;
+  }
+  
+  .container_form {
+    padding: 5%;
+  }
+  
+  .container_form input,
+  .container_form button,
+  .container_form select {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #00235b;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-size: 15px;
+  }
+  
+  .container_form button {
+    background-color: #00235b;
+    border: none;
+    border-radius: 10px;
+    color: #f1f1e6;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .container_form label {
+    margin-bottom: 2px;
+    font-size: 20px;
+    color: #00235b;
+  }
